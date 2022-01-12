@@ -8,9 +8,9 @@
         $email= $_POST['mail'];
         $age= $_POST['age'];
         $servername = "localhost";
-        $username = "id16322329_rahul";
-        $password = "4K6d7QVDk7X)9ycS";
-        $dbname = "id16322329_iat";
+        $username = "";
+        $password = "";
+        $dbname = "";
         setcookie("user", $email, time() + (600*1500*6500), "/");
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
